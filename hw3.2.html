@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level2</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #blue{
+            background-color: skyblue;
+        }
+        #pink{
+            background-color: lightpink;
+        }
+        #green{
+            background-color: lightgreen;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        section a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<section id="blue">
+    <div style="height:10vh"></div>
+    <div style="height:80vh">
+        <h3>Section Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti est in numquam, obcaecati optio
+            quisquam quod vero. Fuga, quas.</p>
+    </div>
+    <div style="height:10vh">
+        <a href="#pink">&#8595;</a></div>
+</section>
+
+<section id="pink">
+    <div style="height:10vh">
+        <a href="#blue">&#8593;</a></div>
+    <div style="height:80vh">
+        <h3>Section Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti est in numquam, obcaecati optio
+            quisquam quod vero. Fuga, quas.</p>
+    </div>
+    <div style="height:10vh">
+        <a href="#green">&#8595;</a>
+    </div>
+</section>
+
+<section id="green">
+   <div style="height:10vh">
+       <a href="#pink">&#8593;</a>
+   </div>
+    <div style="height:80vh">
+        <h3>Section Title</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti est in numquam, obcaecati optio
+        quisquam quod vero. Fuga, quas.</p>
+    </div>
+    <div style="height:10vh"></div>
+</section>
+
+</body>
+</html>
